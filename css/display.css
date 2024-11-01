@@ -1,0 +1,105 @@
+.jsrm-menu{
+	width: 100%;
+	margin-bottom: 1em;
+	overflow: hidden;
+	}
+
+.jsrm-menu .item-text{
+	font-weight: bold;
+	font-size: 1.25em;
+	margin-bottom: 0;
+	}
+	
+.jsrm-menu .image{ padding: 0; }
+.jsrm-menu .image img{ margin: 4px 4px 4px 0; }	
+.item-header{ float: left; }
+.value-header{ float: right; }
+				
+/* ------ Table ----------------- */
+
+.jsrm-menu table{
+	width: 100%;
+	border-collapse: collapse;
+	}
+
+.jsrm-menu th{
+	vertical-align: top;
+	text-align: left;
+	padding: 8px;
+	border-bottom: 2px solid #000;
+	white-space:nowrap;
+
+	}
+		
+.jsrm-menu td{
+	vertical-align: top;
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #555;
+	}
+	
+.jsrm-menu th:first-child, .jsrm-menu td:first-child{ padding-left: 0; }
+.jsrm-menu th:last-child, .jsrm-menu td:last-child{ padding-right: 0; }
+.jsrm-menu td.item{ width: 100%; }
+.jsrm-menu td.value{ text-align: right; }
+.jsrm-menu .value-text{ text-align: center;}
+ 	
+
+/* -LIST Layout ----------------- */
+
+.col-headers{
+	font-weight: bold;
+	overflow: hidden;
+	}
+	
+.jsrm-menu ol, .jsrm-menu ul{
+	border-top: 2px solid #000;
+	margin-left: 0;
+	padding-left: 0;
+	}
+	
+.jsrm-menu li{
+	overflow: hidden;
+	border-bottom: 1px solid #555;
+	margin: 0;
+	list-style-type: none;
+	}
+
+.jsrm-menu li div{
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+	}
+	
+.jsrm-menu li div.image{ padding-left: 0; }
+.jsrm-menu li div:first-child{ padding-left: 0; }	
+.jsrm-menu li div:last-child{ padding-right: 0; }	
+.jsrm-menu div.value{ float: right; }
+.jsrm-menu ul li{ list-style-type: none; }
+		
+.jsrm-menu ol .value-col, .jsrm-menu ul .value-col, .jsrm-menu .col-headers .value-col{
+	text-align: left;
+	display: inline-block;
+	padding: 0;
+	text-align: center;
+	margin: 0 8px;
+	}
+
+.jsrm-menu .value-col:last-child{
+	margin-right: 0;
+	}
+
+/*ZEBRA*/
+
+.jsrm-menu.zebra .value-header{ padding-right: 4px; }
+.jsrm-menu.zebra li{ padding: 0 4px; }
+.jsrm-menu.zebra th:first-child, .jsrm-menu td:first-child{ padding-left: 4px; }
+.jsrm-menu.zebra th:last-child, .jsrm-menu td:last-child{ padding-right: 4px; }	
+.jsrm-menu.zebra .odd{
+	background-color: #eee;
+	background-color: rgba(255,255,255,0.50);
+	}
+.jsrm-menu.zebra .even{
+	background-color: #ddd;
+	background-color: rgba(0,0,0,0.25);
+	}
